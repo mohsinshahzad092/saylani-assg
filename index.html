@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <label for="fname">Name:</label>
+    <input type="text" id="fname" name="fname">
+
+    <br><br>
+
+    <label for="gender">Gender:</label>
+    <input type="text" id="gender" name="gender">
+
+    <br><br>
+
+    <label for="address">Address:</label>
+    <input type="text" id="address" name="address" value="">
+
+    <p>Please select your Education</p>
+    <div id="education">
+        <input type="radio" id="matric" name="education" value="matric">
+        <label for="matric">Matric</label><br>
+        <input type="radio" id="inter" name="education" value="inter">
+        <label for="inter">Inter</label><br>
+        <input type="radio" id="graduation" name="education" value="graduation">
+        <label for="graduation">Graduation</label>
+    </div>
+
+
+    <p>Please select your Profession</p>
+    <div id="profession">
+        <input type="radio" id="sutdent" name="profession" value="sutdent">
+        <label for="sutdent">Student</label><br>
+        <input type="radio" id="business" name="profession" value="business">
+        <label for="business">Business</label><br>
+        <input type="radio" id="job" name="profession" value="job">
+        <label for="job">Job</label>
+    </div>
+    <br>
+
+    <button style="background-color: rgb(122, 122, 122); color: white;" onclick="submission()">Submit</button>
+
+</body>
+<script src="app.js"></script>
+
+</html>
